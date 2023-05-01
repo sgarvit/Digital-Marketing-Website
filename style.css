@@ -1,0 +1,694 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+.head-container{
+    background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+.head-container .logo h1{
+    color: white;
+}
+.head-container .navigation ul{
+    color: rgb(145, 145, 145);
+    list-style: none;
+    display: flex;
+    cursor: pointer;
+    margin-right: 300px;
+}
+.head-container .navigation ul li{
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+    font-weight: 300;
+}
+#home-active{
+    color: white;
+    font-size: 22px;
+    margin-top: -3px;
+    font-weight: 600;
+}
+.head-container .navigation ul li:hover{
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+.head-container .hamburger-menu img{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.section-1-container{
+    background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+    padding-top: 50px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    border-radius: 0 0 30px 30px;
+}
+.section-1-container .section-1-sub-container-1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.section-1-container .section-1-sub-container-1 .section-1-text h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 30px;
+    text-align: center;
+
+}
+.section-1-container .section-1-sub-container-1 .star-img-1{
+    margin-right: -450px;
+    margin-top: -18px;
+}
+
+.section-1-container .section-1-sub-container-1 .star-img-2{
+    margin-left: -450px;
+    margin-top: -18px;
+}
+.section-1-container .section-1-sub-container-1 .star-img-1 img{
+    width: 130px;
+    height: 130px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.section-1-container .section-1-sub-container-1 .star-img-2 img{
+    width: 150px;
+    height: 150px;
+}
+
+.section-1-container .section-1-sub-container-2 h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: -50px;
+    text-align: center;
+}
+.section-1-container .section-1-sub-container-3 p{
+    color: rgb(194, 194, 194);
+    text-align: center;
+    margin-top: 20px;
+}
+.section-1-container .section-1-sub-container-4{
+    background-image: url(Images/background.jpg);
+    background-size: cover;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: none;
+    border-radius: 30px;
+    width: 1300px;
+    margin-left: 130px;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+.section-1-container .section-1-sub-container-4 .section-1-explore button{
+    padding: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 45%;
+    border: 4px solid white;
+    background-color: purple;
+    border-radius: 50px;
+    color: white;
+    margin-top: 200px;
+}
+.section-1-container .section-1-sub-container-4 .section-1-explore .section-1-sub-explore{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: black;
+    height: 50px;
+    color: #fff;
+    margin-top: 150px;
+    border: none;
+    border-radius: 0 0 30px 30px;
+}
+.section-1-container .section-1-sub-container-4 .section-1-explore .section-1-sub-explore .section-1-text{
+    font-size: large;
+    font-weight: 800;
+    margin-top: 15px;
+}
+.section-1-container .section-1-sub-container-4 .section-1-explore .section-1-sub-explore .section-1-text-2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+
+}
+.section-1-container .section-1-sub-container-4 .section-1-explore .section-1-sub-explore .section-1-text-2 .long-down-arrow img{
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding-top: 5px;
+    margin-top: -5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    margin-right: 20px;
+    padding-right: 5px;
+}
+.section-1-container .section-1-sub-container-4 .section-1-explore .section-1-sub-explore .section-1-text-2 .section-1-text-3 p{
+font-size: large;
+}
+.section-2-container .section-2-head-text{
+    margin-left: 400px;
+    margin-bottom: 20px;
+}
+.section-2-container .section-2-head-text h1{
+    color: darkslateblue;
+    font-size: 60px;
+}
+.section-2-container .section-2-text{
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.section-2-container .section-2-text p{
+    color: gray;
+    text-align: center;
+    font-size: 15px;
+}
+.section-3-container{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: space-evenly;
+}
+#portrait-img{
+    width: 500px;
+    height: 600px;
+}
+
+.section-3-container .section-3-details .section-3-experience-container{
+    background-color: rgb(179, 0, 179);
+    border: none;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+.section-3-container .section-3-details .section-3-experience-container .section-3-sub-experience{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+    .section-3-container .section-3-details .section-3-experience-container .section-3-sub-experience .section-3-no h1{
+        color: white;
+        font-weight: 600;
+        font-size: 50px;
+    }
+    
+    .section-3-container .section-3-details .section-3-experience-container .section-3-sub-experience .section-3-text h2{
+    color: white;
+    font-weight: 600;
+    font-size: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.section-3-container .section-3-details .section-3-experience-container .section-3-sub-experience .section-3-arrow img{
+    width: 20px;
+    height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-top: 6px;
+    background-color: #fff;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.section-3-container .section-3-details .section-3-experience-container .section-3-experience-text p{
+    color: rgb(222, 222, 222);
+    font-size: 15px;
+    padding-left: 15px;
+    font-weight: 500;
+}
+.section-3-container .section-3-details .section-3-customer-container{
+    border: 3px solid black;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+.section-3-container .section-3-details .section-3-customer-container{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: space-evenly;
+    
+}
+.section-3-container .section-3-details .section-3-customer-container .section-3-no-2 h1{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.section-3-container .section-3-details .section-3-customer-container .section-3-text-2 h2{
+color: rgb(0, 0, 0);
+font-weight: 600;
+font-size: 35px;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 10px;
+}
+.section-3-container .section-3-details .section-3-customer-container .section-3-arrow-2 img{
+width: 20px;
+height: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 10px;
+margin-left: 10px;
+margin-top: 6px;
+background-color: #fff;
+border: 2px solid black;
+border-radius: 50px;
+}
+
+/* =================================== */
+
+.section-3-container .section-3-details .section-3-revenue-container{
+    border: 3px solid black;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+.section-3-container .section-3-details .section-3-revenue-container{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: space-evenly;
+    
+}
+.section-3-container .section-3-details .section-3-revenue-container .section-3-no-3 h1{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.section-3-container .section-3-details .section-3-revenue-container .section-3-text-3 h2{
+color: rgb(0, 0, 0);
+font-weight: 600;
+font-size: 35px;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 10px;
+}
+.section-3-container .section-3-details .section-3-revenue-container .section-3-arrow-3 img{
+width: 20px;
+height: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 10px;
+margin-left: 10px;
+margin-top: 6px;
+background-color: #fff;
+border: 2px solid black;
+border-radius: 50px;
+}
+
+.section-4-container .section-4-head-text{
+    margin-bottom: 20px;
+}
+.section-4-container .section-4-head-text h1{
+    color: darkslateblue;
+    font-size: 60px;
+    text-align: center;
+}
+.section-4-container .section-4-text{
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.section-4-container .section-4-text p{
+    color: gray;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+.section-5-container .section-5-sub-container-1 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+.section-5-container .section-5-sub-container-1 .section-5-web-design{
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(234, 234, 234);
+    padding: 20px;
+    width: 500px;
+    height: 300px;
+    margin-bottom: 50px;
+}
+.section-5-container .section-5-sub-container-1 .section-5-web-design img{
+    width: 50px;
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.section-5-container .section-5-sub-container-1 .section-5-web-design h1{
+    padding-top: 60px;
+    padding-left: 20px;
+    font-size: 40px;
+}
+
+.section-5-container .section-5-sub-container-1 .section-5-web-design p{
+    color: rgb(111, 111, 111);
+    font-size: 15px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+
+.section-5-container .section-5-sub-container-1 .section-5-illustration{
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(234, 234, 234);
+    padding: 20px;
+    width: 500px;
+    height: 300px;
+    margin-bottom: 50px;
+}
+.section-5-container .section-5-sub-container-1 .section-5-illustration img{
+    width: 50px;
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.section-5-container .section-5-sub-container-1 .section-5-illustration h1{
+    padding-top: 60px;
+    padding-left: 20px;
+    font-size: 40px;
+}
+
+.section-5-container .section-5-sub-container-1 .section-5-illustration p{
+    color: rgb(111, 111, 111);
+    font-size: 15px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+/* ================================================== */
+
+.section-5-container .section-5-sub-container-2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+.section-5-container .section-5-sub-container-2 .section-5-app-design{
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(234, 234, 234);
+    padding: 20px;
+    width: 500px;
+    height: 300px;
+    margin-bottom: 50px;
+}
+.section-5-container .section-5-sub-container-2 .section-5-app-design img{
+    width: 50px;
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.section-5-container .section-5-sub-container-2 .section-5-app-design h1{
+    padding-top: 60px;
+    padding-left: 20px;
+    font-size: 40px;
+}
+
+.section-5-container .section-5-sub-container-2 .section-5-app-design p{
+    color: rgb(111, 111, 111);
+    font-size: 15px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+
+.section-5-container .section-5-sub-container-2 .section-5-development{
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(234, 234, 234);
+    padding: 20px;
+    width: 500px;
+    height: 300px;
+    margin-bottom: 50px;
+}
+.section-5-container .section-5-sub-container-2 .section-5-development img{
+    width: 50px;
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.section-5-container .section-5-sub-container-2 .section-5-development h1{
+    padding-top: 60px;
+    padding-left: 20px;
+    font-size: 40px;
+}
+
+.section-5-container .section-5-sub-container-2 .section-5-development p{
+    color: rgb(111, 111, 111);
+    font-size: 15px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.section-6-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 700px;
+    padding-right: 700px;
+    padding-bottom: 30px;
+}
+.section-6-container .section-6-left-arrow img{
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.section-6-container .section-6-right-arrow img{
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.section-7-container .section-7-head-text{
+    margin-bottom: 20px;
+}
+.section-7-container .section-7-head-text h1{
+    color: darkslateblue;
+    font-size: 60px;
+    text-align: center;
+}
+.section-7-container .section-7-text{
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.section-7-container .section-7-text p{
+    color: gray;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+.section-8-container .section-8-app-1{
+    border: none;
+    background-image: url(Images/app-img-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80%;
+    margin-bottom: 10px;
+    margin-left: 130px;
+    border-radius: 20px;
+    height: 350px;
+}
+.section-8-container .section-8-app-1 img{
+    width: 40px;
+    height: 40px;
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px;
+    border: 4px solid rgb(0, 0, 0);
+    background-color: rgb(143, 4, 212);
+    padding: 15px;
+    border-radius: 25px;
+}
+.section-8-container .section-8-app-1 p{
+    color: gray;
+    font-weight: 900;
+    padding-top: 230px;    
+    padding-left: 50px;
+}
+
+.section-8-container .section-8-app-1 h1{
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+
+.section-8-container .section-8-app-2{
+    border: none;
+    background-image: url(Images/app-img-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80%;
+    margin-bottom: 10px;
+    margin-left: 130px;
+    border-radius: 20px;
+    height: 350px;
+}
+
+.section-8-container .section-8-app-3{
+    border: none;
+    background-image: url(Images/app-img-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80%;
+    margin-bottom: 30px;
+    margin-left: 130px;
+    border-radius: 20px;
+    height: 350px;
+}
+.section-8-container .section-8-browser-btn {
+text-align: center;
+margin-bottom: 30px;
+}
+.section-8-container .section-8-browser-btn button{
+    padding: 10px;
+    background-color: #fff;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 15px;
+    color: purple;
+}
+.section-8-container .section-8-browser-btn button:hover{
+    background-color: purple;
+    transition: all 0.5s ease-in-out;
+    color: white;
+}
+
+.section-9-container{
+    display: flex;
+    justify-content: space-evenly;
+    background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+}
+.section-9-container .end-container-1 h1{
+    color: white;
+    margin-top: 170px;
+    font-size: 60px;
+    text-align: center;
+    margin-left: 300px;
+}
+.section-9-container .end-container-1 button{
+    padding: 10px;
+    margin-left: 450px;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #090979;
+    font-size: 20px;
+    font-weight: 700;
+    width: 200px;
+    margin-top: 50px;
+}
+.section-9-container .end-container-2 img{
+    width: 500px;
+    height: 500px;
+    margin-right: 200px;
+}
+.section-10-container{
+    background-color: rgb(34, 24, 69);
+    height: 315px;
+    border: none;  
+}
+.section-10-container h1{
+    color: white;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+.section-10-container .social-media{
+    float: right;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    margin-right: 50px;
+    
+}
+#mail-icon{
+    padding-right: 10px;
+}
+#instagram-icon{
+    padding-right: 10px;
+}
+#facebook-icon{
+    padding-right: 10px;
+}
+
+.section-10-container p{
+    color: gray;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+#hr-line{
+    width: 1450px;
+    color: rgba(128, 128, 128, 0.232);
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.section-10-container .address{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 50px;
+    padding-right: 420px;
+}
+.section-10-container .address .address-icon{
+  color: white;  
+  padding-top: 20px;
+  margin-left: -350px;
+}
+.section-10-container .address .address-name p{
+    font-weight: 700;
+    margin-left: -390px;
+    margin-top: -10px;
+    color: white;
+}
+.section-10-container .address .copyrights p{
+    font-weight: 200;
+    margin-left: -590px;
+    font-size: small;
+    margin-top: -10px;
+    color: white;
+}
